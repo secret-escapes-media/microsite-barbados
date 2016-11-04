@@ -4,7 +4,6 @@
 
 
 .offer {
-  background-color: $white;
   text-align: left;
   &:hover {  }
   .row__column{
@@ -34,6 +33,7 @@
     left: 0;
   }
   &__content {
+    background-color: $white;
     overflow: hidden;
     padding: $margin ($margin * 1.2);
     p + p { margin-top: .2em; }
@@ -113,3 +113,11 @@
 
 }
 
+.offer-carousel {
+  .offer { padding: 0 1em; }
+  @media (min-width:960px) {
+    .offer { padding: 0; margin: 1em 0; }
+    .slick-slide { @include transition(); transform: scale(0.85); opacity: 0.6; }
+    .slick-center { transform: scale(1); opacity: 1; }
+  }
+}

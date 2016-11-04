@@ -3,7 +3,12 @@ layout: article
 title: Nature
 class: nature
 nav-order: 2
+banner-title:
 banner-content:
+
+intro-title: Back to Nature
+intro-content: >
+  <p class="lead">With typical Caribbean charm pulled off so effortlessly, Barbados is, as imagined, a stunning paradise teeming with natural curiosities and picture perfect moments worth sharing.</p>
 
 sections:
   - title: Farley Hill National Park
@@ -19,50 +24,3 @@ sections:
     content: An eerie subterranean landscape encroached by a chorus of stalactites and stalagmites make for curious adventure deep into the underbelly of Barbados. Embark on a journey deep into the earth on an electric tram, which will take you further and further into the depths of the island. You’ll alight at underground rivers, which cascade further downward in magnificent waterfalls. Harrison’s Cave is a truly immersive experience, and a great way to cool off on a hot day…
 
 ---
-
-
-{% include banner.html %}
-
-
-<section>
-  <div class="row row--padding align-center">
-    <h2>Back to Nature</h2>
-    <p class="lead">With typical Caribbean charm pulled off so effortlessly, Barbados is, as imagined, a stunning paradise teeming with natural curiosities and picture perfect moments worth sharing.</p>
-  </div>
-
-  <div class="row row--padding align-center">
-    <ul class="list--horizontal">
-      {% for section in page.sections %}
-      <li><a href="#{{section.class}}" class="spaced-caps">{{section.title}}</a></li>
-      {% endfor %}
-      <li><a href="#offers" class="spaced-caps">Offers</a></li>
-    </ul>
-
-  </div>
-</section>
-
-
-
-{% for section in page.sections %}
-
-<div id="{{ section.class }}" class="article-section row--columns-6-6 row--columns-vertical-align {% cycle "", "article-section--swap" %}">
-
-  <div class="article-section--image row__column bg-image-ratio bg-image-ratio--4-3" style="background-image: url('{{ site.baseurl }}/img/content/{{ section.class }}.jpg');"></div>
-
-  <div class="row__column">
-    <div class="article-section--content">
-      <div class="article-section--content-inner">
-        <h4>{{ section.title | upcase }}</h4>
-        <p>{{ section.content }}</p>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-{% endfor %}
-
-
-{% include offer-section.html %}
-
-

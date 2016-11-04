@@ -23,6 +23,14 @@ section {
     padding-bottom: 3.375em;
   }
 }
+.section--side-padding {
+  padding-left: 2.25em;
+  padding-right: 2.25em;
+  @include bp(large) {
+    padding-left: 3.375em;
+    padding-right: 3.375em;
+  }
+}
 
 .row {
   @include container( $xxxlarge );

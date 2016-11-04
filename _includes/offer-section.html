@@ -3,11 +3,58 @@
     <h2>Barbados featured offers</h2>
     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet.</p>
   </div>
-  <div class="row">
-    {% assign offers = site.data.offers %}
+</section>
 
-    {% for offer in offers limit:1 %}
-      {% include offer-block.html class="featured" %}
+<div class="section section--light-grey-bg section--side-padding clearfix">
+  <div class="offer-carousel">
+    {% assign offers = site.data.offers %}
+    {% for offer in offers %}
+      {% include offer-block.html class="stack" %}
     {% endfor %}
   </div>
+</div>
+
+<section class="section section--light-grey-bg">
+  <div class="row row--padding align-center">
+    <a class="btn btn--solid" href="{{ site.baseurl }}/offers">View all offers</a>
+  </div>
 </section>
+
+<script>
+  $(document).ready(function(){
+
+    $('.offer-carousel').slick({
+      centerMode: true,
+      centerPadding: '0',
+      accessibility: true,
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 960,
+          settings: {
+            centerMode: false,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+
+  });
+
+
+
+</script>
