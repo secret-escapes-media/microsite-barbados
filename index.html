@@ -3,33 +3,32 @@ layout: default
 title: Overview
 class: overview
 nav-order: 1
+banner-title: Your Barbados Experiences Start Here
+banner-content:
 ---
 
-<section class="section--fixed-bg intro site-header__offset text-white">
-  <div class="row row--padding">
-    <h1>{{ page.title }}</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
-    <a href="offers.html" class="btn">Offers</a>
-  </div>
-</section>
+
+{% include banner.html %}
+
 
 <section>
-  <div class="row row--padding row--columns-4-4-4-gutters">
-    <p class="row__column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
-    <p class="row__column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
-    <p class="row__column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
-  </div>
   <div class="row row--padding">
-    <a href="#" class="btn">button</a>
+    {% assign articles = site.pages | where:"layout","article" | sort:"nav-order" %}
+    {% for article in articles %}
+
+    <div
+      class="overview-box color-white bg-image-ratio bg-image-ratio--16-9"
+      style="background-image: url('{{ site.baseurl }}/img/bg/banner-{{ article.class }}.jpg');">
+
+      <a class="overview-box--link" href="{{ article.url }}">
+        <span class="overview-box--title">{{ article.title }}</span>
+      </a>
+
+    </div>
+
+    {% endfor %}
   </div>
 </section>
 
-<section class="section--fixed-bg another">
-  <div class="row row--padding row--columns-4-8-gutters">
-    <p class="row__column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
-    <div class="row__column">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
-    </div>
-  </div>
-</section>
+
+{% include offer-section.html %}

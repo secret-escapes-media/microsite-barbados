@@ -4,8 +4,9 @@
 
 
 .offer {
-  border: 1px solid $light-grey;
-  &:hover { background-color: $light-grey; }
+  background-color: $white;
+  text-align: left;
+  &:hover {  }
   .row__column{
     margin-top: 0;
   }

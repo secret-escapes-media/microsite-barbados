@@ -1,0 +1,13 @@
+<section id="offers" class="section section--light-grey-bg">
+  <div class="row row--padding align-center">
+    <h2>Barbados featured offers</h2>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet.</p>
+  </div>
+  <div class="row">
+    {% assign offers = site.data.offers %}
+
+    {% for offer in offers limit:1 %}
+      {% include offer-block.html class="featured" %}
+    {% endfor %}
+  </div>
+</section>

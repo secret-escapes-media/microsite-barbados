@@ -1,0 +1,68 @@
+---
+layout: article
+title: Nature
+class: nature
+nav-order: 2
+banner-content:
+
+sections:
+  - title: Farley Hill National Park
+    class: farley-hill
+    content: This picturesque park is home to the ruins of the Farley House. Once the most prominent stately home on the island, the scene evokes the same romanticism that the likes of Keats and Byron found half-way across the world. Perfect for strolls, picnics, and basking in the shade of palm trees. You’ll also get some great views of the island from up here, and if you time it right, the setting is used to stage some incredible events throughout the year.
+
+  - title: Barbados Wildlife Reserve
+    class: wildlife-reserve
+    content: Just across the road from Farley Hill National Park is the Barbados Wildlife Reserve, a walk-through zoo that is the only place to visit if you love our animal kingdom buddies. It’s an immersive experience, where animals are free to roam the grounds,scurrying across your path and disappearing into the mahogany wood. Barbados Green Monkeys are a common site here, particularly around feeding time, though they are free to leave the reserve as and when they please. A walk-through aviary is a particularly stunning site, with parrots, flamingos and peacocks busying the scene. You’ll catch Brocket deer, armadillos, caimans, plenty of reptiles, and a few more dangerous creatures kept in enclosures – animal lovers alight!
+
+  - title: Harrison’s Cave
+    class: harrisons-cave
+    content: An eerie subterranean landscape encroached by a chorus of stalactites and stalagmites make for curious adventure deep into the underbelly of Barbados. Embark on a journey deep into the earth on an electric tram, which will take you further and further into the depths of the island. You’ll alight at underground rivers, which cascade further downward in magnificent waterfalls. Harrison’s Cave is a truly immersive experience, and a great way to cool off on a hot day…
+
+---
+
+
+{% include banner.html %}
+
+
+<section>
+  <div class="row row--padding align-center">
+    <h2>Back to Nature</h2>
+    <p class="lead">With typical Caribbean charm pulled off so effortlessly, Barbados is, as imagined, a stunning paradise teeming with natural curiosities and picture perfect moments worth sharing.</p>
+  </div>
+
+  <div class="row row--padding align-center">
+    <ul class="list--horizontal">
+      {% for section in page.sections %}
+      <li><a href="#{{section.class}}" class="spaced-caps">{{section.title}}</a></li>
+      {% endfor %}
+      <li><a href="#offers" class="spaced-caps">Offers</a></li>
+    </ul>
+
+  </div>
+</section>
+
+
+
+{% for section in page.sections %}
+
+<div id="{{ section.class }}" class="article-section row--columns-6-6 row--columns-vertical-align {% cycle "", "article-section--swap" %}">
+
+  <div class="article-section--image row__column bg-image-ratio bg-image-ratio--4-3" style="background-image: url('{{ site.baseurl }}/img/content/{{ section.class }}.jpg');"></div>
+
+  <div class="row__column">
+    <div class="article-section--content">
+      <div class="article-section--content-inner">
+        <h4>{{ section.title | upcase }}</h4>
+        <p>{{ section.content }}</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+{% endfor %}
+
+
+{% include offer-section.html %}
+
+

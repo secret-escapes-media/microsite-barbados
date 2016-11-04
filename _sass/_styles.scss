@@ -1,18 +1,24 @@
 // all custom styles for the site
 
 
+body { background-image: url('../img/bg/bg-texture.jpg'); }
+
+
+// ---------- Footer ----------
+
+
 .site-footer {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: $margin;
+  padding-bottom: $margin;
   color: darken( $white, 20 );
   font-size: .8em;
   font-weight: 400;
-  background-color: $black;
+  background-color: $partner-primary;
 
   .footer-nav {
     &__link {
       text-transform: uppercase;
-      font-size: 1.2em;
+      font-size: 1em;
       font-weight: 600;
       letter-spacing: 0.1em;
       padding: 0 10px;
@@ -24,6 +30,8 @@
 // ---------- Section styles ----------
 
 .section {
+  background-color: $white;
+  background-image: url('../img/bg/bg-texture.png');
   // Fixed background section
   &--fixed-bg {
     padding-top: 8em;
@@ -31,10 +39,9 @@
     color: $white;
     background-color: $se-light-grey;
     background: $se-light-grey center no-repeat;
-    background-image: url('../img/bg/bg.jpg');
+    background-image: url('../img/bg/banner-default.jpg');
     background-size: cover;
     background-attachment: fixed;
-    p { font-weight: 400; }
     .page-content &:first-child:before {
       content: '';
       display: block;
@@ -54,7 +61,7 @@
     color: $white;
   }
   &--partner-bg {
-    background-color: $partner-secondary;
+    background-color: $partner-primary;
     color: $white;
   }
 }
@@ -65,16 +72,111 @@
   @include transition;
   display:inline-block;
   padding: .5em 1.5em;
-  border: 1px solid $se-orange;
+  border: 1px solid $partner-tertiary;
+  font-family: $title-font-family;
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
   font-weight: 500;
-  border-radius: 10em;
+  text-transform: uppercase;
+  color: $partner-tertiary;
   &:hover {
     color: white;
-    background-color: $se-orange;
+    background-color: $partner-tertiary;
     text-decoration: none;
   }
   * + & { margin-top: 1em; }
 
-  &--solid { color: white; border: 0; background-color: $se-orange; }
+  &--solid {
+    color: white;
+    border: 0;
+    background-color: $partner-tertiary;
+    &:hover {
+      background-color: darken($partner-tertiary, 20%);
+    }
+  }
   &--large { font-size: 1.2em; padding: .5em 3em; }
+  &--small { font-size: 0.8em; padding: .25em 1.5em; }
 }
+
+
+// ---------- Banner ----------
+
+.banner {
+  position: relative;
+  background-image: url('../img/bg/banner-default.jpg');
+  &--title {
+    text-transform: uppercase;
+  }
+  &:after {
+    content: "";
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    bottom: 0; left: 0;
+    z-index: 10;
+    background-image: url('../img/bg/banner-after.png');
+  }
+}
+
+
+
+.overview-box {
+  @include transition();
+  @include layout(2 1/24);
+  @include gallery(1);
+  margin-bottom: gutter(2);
+  background-size: auto 100%;
+  &:hover { background-size: auto 105%; }
+  &--link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    display: block;
+  }
+  &--title {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    font-weight: 800;
+    font-family: $title-font-family;
+  }
+}
+
+
+
+.article-section {
+  .row__column:nth-child(2n) {
+    z-index: 1;
+  }
+  &--content {
+    padding: 2em;
+    overflow: hidden;
+    @include bp(large) {
+      margin-left: -4em;
+      background-color: $white-85;
+    }
+    &-inner {
+      max-width: 620px;
+    }
+  }
+  @include bp(large) {
+    &--swap {
+      flex-direction: row-reverse;
+      .article-section--content {
+          margin-left: 0;
+          margin-right: -4em;
+          &-inner { float: right; }
+      }
+    }
+  }
+}
+

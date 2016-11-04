@@ -25,7 +25,7 @@ section {
 }
 
 .row {
-  @include container( $xxlarge );
+  @include container( $xxxlarge );
   position: relative;
   & + .row { margin-top: $margin; }
 }
@@ -99,10 +99,7 @@ section {
   .row--columns-4-4-4 .row__column { @include gallery(4); }
 
   // three columns with gutter
-  .row--columns-4-4-4-gutters .row__column {
-    @include gallery($gutters 4);
-    margin-bottom: gutter();
-  }
+  .row--columns-4-4-4-gutters .row__column { @include gallery($gutters 4); }
 
   // vertical align floated columns
   .row--columns-vertical-align {
