@@ -1,4 +1,4 @@
-<footer class="site-footer text-white">
+<footer class="site-footer color-white">
 
   <div class="row row--padding row--columns-6-6 row--columns-vertical-align">
     <div class="row__column">
@@ -18,7 +18,7 @@
       {% for page in nav-order %}
       {% if page.nav-order %}
       <li>
-        <a class="footer-nav__link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+        <a class="footer-nav__link spaced-caps" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
       </li>
       {% endif %}
       {% endfor %}

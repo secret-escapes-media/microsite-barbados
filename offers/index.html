@@ -1,0 +1,35 @@
+---
+layout: default
+title: Offers
+class: offers
+nav-order: 7
+banner-title:
+banner-content:
+
+intro-title: Exclusive Barbados offers
+intro-content: >
+  <p>Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+---
+
+
+{% include banner.html %}
+
+
+<section>
+  <div class="row row--padding align-center">
+    <h2>{{ page.intro-title }}</h2>
+    {{ page.intro-content }}
+  </div>
+</section>
+
+
+
+<section class="section section--light-grey-bg">
+  <div class="row">
+    {% assign offers = site.data.offers %}
+    {% for offer in offers %}
+      {% include offer-block.html %}
+    {% endfor %}
+  </div>
+</section>
+

@@ -1,9 +1,9 @@
 
-{% if include.class == 'stack' %}
+{% if include.class == 'small' %}
 
 
 
-  <div class="row row__column offer offer--stack">
+  <div class="row row__column offer offer--small color-default">
 
     <a href="{{ offer.link }}" class="bg-image-ratio bg-image-ratio--16-9 offer__image" style="background-image: url('{{ site.baseurl }}/img/offers/{{ offer.class }}.jpg')">
     </a>
@@ -17,15 +17,8 @@
         <p>{{ offer.description }}</p>
       {% endif %}
 
-      <p>From <strong>£{{ offer.price }}</strong> {{ offer.price-description }}</p>
+      <p>From <strong>£{{ offer.price }}</strong> {{ offer.price-description }}{% if offer.saved %}, save up to <strong>{{ offer.saved }}</strong>{% endif %}.</p>
 
-      {% if offer.saved %}
-        <p>Save up to <strong>{{ offer.saved }}</strong></p>
-      {% endif %}
-
-      {% if offer.expires %}
-        <p>Offer ends on <strong>{{ offer.expires | date_to_long_string }}</strong></p>
-      {% endif %}
       <a id="button-link-{{ offer.class }}" href="{{ offer.link }}" class="btn btn--solid">View Offer</a>
 
     </div>
@@ -38,7 +31,7 @@
 
 
 
-  <div class="row row__column offer offer--featured">
+  <div class="row row__column offer offer--featured color-default">
 
     <a href="{{ offer.link }}" class="bg-image-ratio bg-image-ratio--21-9 offer__image" style="background-image: url('{{ site.baseurl }}/img/offers/{{ offer.class }}.jpg')">
     </a>
@@ -81,7 +74,7 @@
 
 
 
-  <div class="row row--columns-6-6 offer">
+  <div class="row row--columns-6-6 offer color-default">
 
     <div class="row__column offer__image" style="background-image: url('{{ site.baseurl }}/img/offers/{{ offer.class }}.jpg')">
       <a class="offer__image-link" id="image-link-{{ offer.class }}" href="{{ offer.link }}"></a>

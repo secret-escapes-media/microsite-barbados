@@ -27,7 +27,7 @@ layout: default
 
 {% for section in page.sections %}
 
-<div id="{{ section.class }}" class="article-section row--columns-6-6 row--columns-vertical-align {% cycle "", "article-section--swap" %}">
+<div id="{{ section.class }}" class="section section--light-grey-bg article-section row--columns-6-6 row--columns-vertical-align {% cycle "", "article-section--swap" %}">
 
   <div class="article-section--image row__column bg-image-ratio bg-image-ratio--4-3" style="background-image: url('{{ site.baseurl }}/img/content/{{ section.class }}.jpg');"></div>
 

@@ -1,23 +1,20 @@
-<section id="offers" class="section section--light-grey-bg">
+<section id="offers" class="section section--fixed-bg section--side-padding color-white">
   <div class="row row--padding align-center">
     <h2>Barbados featured offers</h2>
     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet.</p>
   </div>
-</section>
 
-<div class="section section--light-grey-bg section--side-padding clearfix">
-  <div class="offer-carousel">
+  <div class="row offer-carousel">
     {% assign offers = site.data.offers %}
     {% for offer in offers %}
-      {% include offer-block.html class="stack" %}
+      {% include offer-block.html class="small" %}
     {% endfor %}
   </div>
-</div>
 
-<section class="section section--light-grey-bg">
   <div class="row row--padding align-center">
     <a class="btn btn--solid" href="{{ site.baseurl }}/offers">View all offers</a>
   </div>
+
 </section>
 
 <script>

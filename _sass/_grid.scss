@@ -10,7 +10,8 @@ $susy:(
   gutters: 0,
 );
 $gutters:( gutters: 1 / 2, );
-$margin: 2em;
+$margin: 2.25em;
+$margin-large: 3.375em;
 
 
 // -------- grid sections --------
@@ -36,6 +37,9 @@ section {
   @include container( $xxxlarge );
   position: relative;
   & + .row { margin-top: $margin; }
+  @include bp(large) {
+    & + .row { margin-top: $margin-large; }
+  }
 }
 
 .row--padding {

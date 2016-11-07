@@ -103,7 +103,7 @@ dl {
   &--horizontal {
     list-style: none; padding: 0; margin: 0;
     li {
-      display: inline-block; position: relative; padding: 0 1em;
+      display: inline-block; position: relative; padding: 0 1em; margin: 0.5em 0;
     }
     li + li:after {
       content: '';
@@ -113,7 +113,7 @@ dl {
       display: block;
       height: 100%;
       width: 1px;
-      background-color: $light-grey;
+      background-color: #dedede;
       transform: translateY(-50%);
     }
   }
@@ -123,7 +123,7 @@ dl {
       font-size: 0.9em;
       padding: 4px 0;
     }
-    li + li { border-top: 1px solid $light-grey; }
+    li + li { border-top: 1px solid #dedede; }
   }
 }
 
@@ -136,7 +136,7 @@ li            { list-style-position: inside; }
 ul li         { list-style-type: disc; }
 ol li         { list-style-type: decimal; }
 em            { font-style: italic; }
-strong        { font-weight: 800; }
+strong        { font-weight: 900; }
 .align-left   { text-align: left; }
 .align-right  { text-align: right; }
 .align-center { text-align: center; }
@@ -155,6 +155,9 @@ hr {
   p,h1,h2,h3,h4,h5,
   .h1,.h2,.h3,.h4,.h5 { color: #fff; }
   hr { background-color: $white-15; }
+
+  .list--horizontal li:after { background-color: $white-15; }
+  .list--lined li { border-top: 1px solid $white-15; }
 }
 
 .color-default {
