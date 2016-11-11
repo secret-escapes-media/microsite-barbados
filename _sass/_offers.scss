@@ -36,7 +36,7 @@
     background-color: $white;
     overflow: hidden;
     padding: $margin ($margin * 1.2);
-    p + p { margin-top: .2em; }
+    p + p { margin-top: .5em; }
   }
   &__content-title {
     margin-bottom: .482em;
@@ -63,7 +63,7 @@
     }
   }
   &__content-price {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 1.44em;
   }
 

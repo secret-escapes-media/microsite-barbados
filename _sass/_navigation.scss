@@ -301,7 +301,8 @@ $icon-size: 27px;
   }
   &--partner {
     line-height: 0;
-    display: block;
+    display: inline-block;
     &--img { max-width: 140px; }
   }
+  &--atol { width: 50px; margin-left: 10px; }
 }

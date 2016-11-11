@@ -16,7 +16,7 @@
 // -------- root typography styles --------
 
 $core-font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-$main-font-family: 'Muli', 'Helvetica Neue', sans-serif;
+$main-font-family: 'Work Sans', 'Helvetica Neue', sans-serif;
 $title-font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
 
 html { font-size:62.5%; }
@@ -136,7 +136,7 @@ li            { list-style-position: inside; }
 ul li         { list-style-type: disc; }
 ol li         { list-style-type: decimal; }
 em            { font-style: italic; }
-strong        { font-weight: 900; }
+strong        { font-weight: 600; }
 .align-left   { text-align: left; }
 .align-right  { text-align: right; }
 .align-center { text-align: center; }
@@ -162,7 +162,7 @@ hr {
 
 .color-default {
   color: $text-paragraph;
-  p,h1,h2,h3,h4,h5,
+  h1,h2,h3,h4,h5,
   .h1,.h2,.h3,.h4,.h5 { color: $text-heading; }
   hr { background-color: $light-grey; }
 }

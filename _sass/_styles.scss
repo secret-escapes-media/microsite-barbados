@@ -113,6 +113,8 @@ body { background-image: url('../img/bg/bg-texture.jpg'); }
   &--title {
     text-transform: uppercase;
     text-shadow: 0 0 25px rgba(14, 20, 32, 0.25);
+    font-size: 5em; font-weight: 200;
+    font-family: 'Work Sans';
   }
   &:after {
     content: "";

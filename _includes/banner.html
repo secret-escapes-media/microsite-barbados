@@ -1,12 +1,10 @@
 <section class="banner site-header__offset color-white"{% if page.layout == 'article' %} style="background-image: url('../img/bg/banner-{{ page.class }}.jpg');"{% endif %}>
   <div class="row row--padding align-center">
-    <h1 class="banner--title font-bb">
-      {% if page.banner-title %}
+    {% if page.banner-title %}
+    <h1 class="banner--title">
         {{ page.banner-title }}
-      {% else %}
-        {{ page.title }}
-      {% endif %}
     </h1>
+    {% endif %}
     {% if page.banner-content %}{{ page.banner-content }}{% endif %}
   </div>
 </section>
