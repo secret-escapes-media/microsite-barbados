@@ -22,7 +22,7 @@ $title-font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
 html { font-size:62.5%; }
 body,
 input, textarea, keygen, select, button {
-  font: 400 14px/1.728 $main-font-family;
+  font: 400 14px/1.6 $main-font-family;
   -webkit-text-size-adjust: 100%;
   color: $text-paragraph;
   @include bp(medium) {
@@ -129,9 +129,9 @@ dl {
 
 // -------- general content styles --------
 
-p             { max-width: 720px; }
+p             { max-width: 720px; letter-spacing: -0.02em; }
 p + *         { margin-top: 1em; }
-.lead         { font-size: 1.3em; line-height: 1.4; font-weight: 400; }
+.lead-paragraph { font-size: 1.3em; line-height: 1.4; font-weight: 400; }
 li            { list-style-position: inside; }
 ul li         { list-style-type: disc; }
 ol li         { list-style-type: decimal; }
@@ -146,7 +146,7 @@ p.align-center,
 hr {
   border: 0;
   height: 1px;
-  background-color: $light-grey;
+  background-color: #eee;
   margin: 1em 0;
 }
 
@@ -162,9 +162,10 @@ hr {
 
 .color-default {
   color: $text-paragraph;
+  p { color: $text-paragraph; }
   h1,h2,h3,h4,h5,
   .h1,.h2,.h3,.h4,.h5 { color: $text-heading; }
-  hr { background-color: $light-grey; }
+  hr { background-color: #eee; }
 }
 
 

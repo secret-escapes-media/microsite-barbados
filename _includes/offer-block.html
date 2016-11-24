@@ -11,7 +11,9 @@
     <div class="offer__content">
 
       <h2 class="offer__content-title"><a id="title-link-{{ offer.class }}" href="{{ offer.link }}">{{ offer.title }}</a></h2>
+      {% if offer.location %}
       <h3 class="h4 offer__content-location">{{ offer.location }}</h3>
+      {% endif %}
 
       {% if offer.description %}
         <p>{{ offer.description }}</p>
@@ -49,7 +51,9 @@
         <div class="row__column">
           <ul class="list--lined">
             <li class="offer__data offer__data-price">From <strong>£{{ offer.price }}</strong> {{ offer.price-description }}</li>
+            {% if offer.location %}
             <li class="offer__data offer__data-location">{{ offer.location }}</li>
+            {% endif %}
             {% if offer.saved %}
               <li class="offer__data offer__data-saved">Save up to <strong>{{ offer.saved }}</strong></li>
             {% endif %}
@@ -83,7 +87,9 @@
     <div class="row__column offer__content">
 
       <h2 class="offer__content-title"><a id="title-link-{{ offer.class }}" href="{{ offer.link }}">{{ offer.title }}</a></h2>
+      {% if offer.location %}
       <h3 class="h4 offer__content-location">{{ offer.location }}</h3>
+      {% endif %}
 
       <hr />
 
