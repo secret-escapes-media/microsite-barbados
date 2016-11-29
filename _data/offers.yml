@@ -24,7 +24,7 @@
   - title: Sandals Barbados
     class: sandals-barbados
     location:
-    description: An all-inclusive paradise on the beach with flights
+    description: An all-inclusive 5-star paradise on the beach with flights
     price: "1,999"
     price-description: per person for 7 nights
     saved:
@@ -35,7 +35,7 @@
   - title: Waves Hotel & Spa by Elegant Hotels
     class: waves-barbados
     location:
-    description: All-inclusive beachfront stay with spa and flights
+    description: All-inclusive 4-star beachfront stay with spa and flights
     price: "1,479"
     price-description: per person for 7 nights
     saved:

@@ -109,6 +109,7 @@ body { background-image: url('../img/bg/bg-texture.jpg'); }
 .banner {
   position: relative;
   padding: 10em 0;
+  background-color: $partner-primary;
   background-image: url('../img/bg/banner-default.jpg');
   background-size: cover;
   background-repeat: no-repeat;
