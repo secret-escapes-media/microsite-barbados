@@ -25,7 +25,7 @@
     class: sandals-barbados
     location:
     description: An all-inclusive 5-star paradise on the beach with flights
-    price: "1,999"
+    price: "1,789"
     price-description: per person for 7 nights
     saved:
     expires:
@@ -36,7 +36,7 @@
     class: waves-barbados
     location:
     description: All-inclusive 4-star beachfront stay with spa and flights
-    price: "1,479"
+    price: "1,399"
     price-description: per person for 7 nights
     saved:
     expires:
@@ -65,13 +65,24 @@
     link: http://www.bestattravel.co.uk/caribbean/barbados/west-coast/mango-bay?utm_medium=display&utm_source=secret-escapes&utm_campaign=barbados-tb-nov16&utm_content=mango-bay&display=secret-escapes-barbados-tb-nov16
 
 
-  # - title: The Club Barbados
-  #   class: the-club-barbados
-  #   location:
-  #   description: An all-inclusive getaway at a beachfront adults-only resort, with boat rides and watersports
-  #   price: "266"
-  #   price-description: per room per night
-  #   saved:
-  #   expires:
-  #   link: https://www.secretescapes.com/the-club-barbados-resort-and-spa-st-james-parish-barbados/sale?gce_ean=1&utm_source=SE&utm_campaign=Barbados_20161205&utm_medium=hub
+  - title: The Club Barbados
+    class: the-club-barbados
+    location:
+    description: An all-inclusive getaway at a beachfront adults-only resort, with boat rides and watersports
+    price: "217"
+    price-description: per room per night
+    saved:
+    expires:
+    link: https://www.secretescapes.com/the-club-barbados-resort-and-spa-st-james-parish-barbados/sale?gce_ean=1&utm_source=SE&utm_campaign=Barbados_20161205&utm_medium=hub
+
+
+  - title: All-inclusive beach getaway
+    class: all-inclusive-beach-getaway
+    location: The Club Barbados Resort & Spa, Caribbean
+    description: A fabulous all-inclusive getaway at a beachfront adults-only resort, with a pick of watersports
+    price: "1,489"
+    price-description: per person for 7 nights
+    saved:
+    expires:
+    link: https://www.secretescapes.com/the-club-barbados-resort-and-spa-st-james-parish-barbados/sale?gce_ean=1&utm_source=SE&utm_campaign=Barbados_20161205&utm_medium=hub
 
