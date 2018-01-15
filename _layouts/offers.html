@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include page/banner.html %}
+
+<div class="page__content">
+
+  <div class="space--xl"></div>
+
+  <div class="row row--padding row--xl text--center">
+    <p class="text--xl line-length--lg">{{page.intro}}</p>
+  </div>
+  <div class="space--xl"></div>
+  <div class="row row--padding">
+    {% include components/offers.html %}
+  </div>
+
+  <div class="space--xl"></div>
+
+  {% include components/offer-promo.html %}
+
+</div>

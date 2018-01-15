@@ -1,88 +1,39 @@
+- title: Premium all-inclusive Barbados beach holiday
+  id: premium-all-inclusive-barbados-beach-holiday
+  location: Turtle Beach by Elegant Hotels, Caribbean
+  description: A fuss-free stay by sugary sands on the Barbados beachfront
+  price: 1449
+  price-description: per person for 7 nights
+  saved: 40
+  expires: 2018/01/23
+  link: https://www.secretescapes.com/premium-all-inclusive-barbados-beach-holiday-turtle-beach-by-elegant-hotels-caribbean/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Barbados_Jan2018
 
-  - title: The Fairmont Royal Pavilion, Barbados
-    class: the-fairmont-royal-pavilion-barbados
-    location:
-    description: Elegant beachside stay with breakfast, flights and transfers
-    price: "2,625"
-    price-description: based on 2 adults sharing for 7 nights
-    saved:
-    expires:
-    link: http://www.theprivatetravelcompany.co.uk/hotels/fairmont-royal-pavilion/
+- title: Heavenly Barbados beach holiday
+  id: heavenly-barbados-beach-holiday
+  location: Worthing Court Apartment Hotel, Caribbean
+  description: Beach bliss at a colourful hotel in breezy Barbados
+  price: 699
+  price-description: per person for 7 nights
+  saved: 45
+  expires: 2018/01/16
+  link: https://www.secretescapes.com/heavenly-barbados-beach-holiday-worthing-court-apartment-hotel-caribbean/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Barbados_Jan2018
 
+- title: Luxury Barbados beach holiday with motorised watersports
+  id: luxury-barbados-beach-holiday-with-motorised-watersports
+  location: Tamarind by Elegant Hotels, Caribbean
+  description: Watersports and tropical cocktails in Barbados
+  price: 1099
+  price-description: per person for 7 nights
+  saved: 30
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/luxury-barbados-beach-holiday-with-motorised-watersports-tamarind-by-elegant-hotels-caribbean/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Barbados_Jan2018
 
-  - title: Colony Club by Elegant Resorts, Barbados
-    class: colony-club-by-elegant-resorts-barbados
-    location:
-    description: Luxurious resort with pool/garden view, flights, transfers and breakfast included
-    price: "2,049"
-    price-description: based on 2 adults sharing for 7 nights
-    saved:
-    expires:
-    link: http://www.caribtours.co.uk/regions/caribbean-mexico/barbados/colony-club-by-elegant-hotels/
-
-
-  - title: Sandals Barbados
-    class: sandals-barbados
-    location:
-    description: An all-inclusive 5-star paradise on the beach with flights
-    price: "1,789"
-    price-description: per person for 7 nights
-    saved:
-    expires:
-    link: http://www.britishairways.com/destinations/hotel-information/barbados/sandals-barbados/BB-BGI-6203600&depDate=19-09-17&duration=7?refevent=ptr_se_sand?DM1_Channel=AFF&DM1_Campaign=UKI_GB_EN_Secretescapes_SE_Sandals&DM1_Site=Secretescapes&utm_source=Secretescapes&utm_medium=Affiliate&utm_campaign=UKI_GB_EN_Secretescapes_SE_Sandals
-
-
-  - title: Waves Hotel & Spa by Elegant Hotels
-    class: waves-barbados
-    location:
-    description: All-inclusive 4-star beachfront stay with spa and flights
-    price: "1,399"
-    price-description: per person for 7 nights
-    saved:
-    expires:
-    link: http://www.britishairways.com/destinations/hotel-information/barbados/waves-hotel-and-spa-by-elegant-hotels/BB-R39-6253701&depDate=19-09-17&duration=7?refevent=ptr_se_waves?DM1_Channel=AFF&DM1_Campaign=UKI_GB_EN_Secretescapes_SE_Waves&DM1_Site=Secretescapes&utm_source=Secretescapes&utm_medium=Affiliate&utm_campaign=UKI_GB_EN_Secretescapes_SE_Waves
-
-
-  - title: Sugar Bay, Barbados
-    class: sugar-bay-barbados
-    location:
-    description: Balcony views in Sugar Bay, all-inclusive with flights
-    price: "1,255"
-    price-description: per person for 7 nights
-    saved:
-    expires:
-    link: http://www.bestattravel.co.uk/caribbean/barbados/sugar-bay-barbados?utm_medium=display&utm_source=secret-escapes&utm_campaign=barbados-tb-nov16&utm_content=sugar-bay&display=secret-escapes-barbados-tb-nov16
-
-
-  - title: Mango Bay
-    class: mango-bay
-    location:
-    description: All-inclusive Mango Bay beachfront stay with balcony and flights
-    price: "1,315"
-    price-description: per person for 7 nights
-    saved:
-    expires:
-    link: http://www.bestattravel.co.uk/caribbean/barbados/west-coast/mango-bay?utm_medium=display&utm_source=secret-escapes&utm_campaign=barbados-tb-nov16&utm_content=mango-bay&display=secret-escapes-barbados-tb-nov16
-
-
-  - title: The Club Barbados
-    class: the-club-barbados
-    location:
-    description: An all-inclusive getaway at a beachfront adults-only resort, with boat rides and watersports
-    price: "217"
-    price-description: per room per night
-    saved:
-    expires:
-    link: https://www.secretescapes.com/the-club-barbados-resort-and-spa-st-james-parish-barbados/sale?gce_ean=1&utm_source=SE&utm_campaign=Barbados_20161205&utm_medium=hub
-
-
-  - title: All-inclusive beach getaway
-    class: all-inclusive-beach-getaway
-    location: The Club Barbados Resort & Spa, Caribbean
-    description: A fabulous all-inclusive getaway at a beachfront adults-only resort, with a pick of watersports
-    price: "1,489"
-    price-description: per person for 7 nights
-    saved:
-    expires:
-    link: https://www.secretescapes.com/all-inclusive-barbados-beach-getaway-with-watersports-the-club-barbados-resort-and-spa-caribbean/sale?gce_ean=1&utm_source=SE&utm_campaign=Barbados_20161220&utm_medium=hub
-
+- title: All-inclusive Barbados beach holiday at an adults-only hotel
+  id: all-inclusive-barbados-beach-holiday-at-an-adults-only-hotel
+  location: The SoCo Hotel, Caribbean
+  description: All-inclusive luxury at a beachside Barbados hotel
+  price: 1299
+  price-description: per person for 7 nights
+  saved: 19
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/all-inclusive-barbados-beach-holiday-at-an-adults-only-hotel-the-soco-hotel-caribbean/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Barbados_Jan2018

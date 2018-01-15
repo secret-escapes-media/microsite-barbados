@@ -1,0 +1,42 @@
+---
+layout: home
+id: overview
+nav-order: 1
+title: Overview
+intro: This sun-drenched Caribbean starlet is the perfect place to indulge mind, body and soul – the beach is calling.
+
+banner:
+  title: Experience Barbados
+---
+
+<div class="space--xl"></div>
+
+<div class="row row--padding row--xl text--center">
+  <p class="title title--core title--xs">{{page.intro}}</p>
+  <div class="space--sm"></div>
+  <div class="line-length--lg">
+    <p>With over 92km of unspoilt, idyllic coastline, Barbados is a premier destination for lying back on golden sands, and listening to the tranquil seas gently lap against this untouched paradise. Head to the towns and allow the heady atmosphere to intoxicate the spirit, from the soca, the calypso, the rum and the spice. Barbados lives its culture through the joy and hospitality of its people, its stoic recognition of its past, and through its vibrant cultural landscape that makes it a wanderlust destination for so many. For Barbados caters to any need, and in doing so, shows you what makes this island, and its glorious people, so alluring.</p>
+  </div>
+</div>
+<div class="space--xl"></div>
+<div class="row row--padding">
+  {% assign pages = site.html_pages | sort:"nav-order" %}
+  {% for page in pages %}
+    {% unless page.id == 'overview' or page.id == 'offers' %}
+
+      <div class="overview-nav">
+        <div class="bg-img bg-img--3-2 bg-img--hover" style="background-image: url('{{site.baseurl}}/img/content/overview/nav/{{page.id}}.jpg');">
+          <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
+          <div class="bg-img__content">
+            <div class="title title--sm title--upper title--kerning">{{page.title}}</div>
+          </div>
+        </div>
+      </div>
+
+    {% endunless %}
+  {% endfor %}
+</div>
+
+<div class="space--xxxl"></div>
+
+{% include components/offer-highlights.html %}
