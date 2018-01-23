@@ -5,18 +5,8 @@
   price: 1449
   price-description: per person for 7 nights
   saved: 40
-  expires: 2018/01/23
+  expires: 2018/01/27
   link: https://www.secretescapes.com/premium-all-inclusive-barbados-beach-holiday-turtle-beach-by-elegant-hotels-caribbean/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Barbados_Jan2018
-
-- title: Heavenly Barbados beach holiday
-  id: heavenly-barbados-beach-holiday
-  location: Worthing Court Apartment Hotel, Caribbean
-  description: Beach bliss at a colourful hotel in breezy Barbados
-  price: 699
-  price-description: per person for 7 nights
-  saved: 45
-  expires: 2018/01/23
-  link: https://www.secretescapes.com/heavenly-barbados-beach-holiday-worthing-court-apartment-hotel-caribbean/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Barbados_Jan2018
 
 - title: Luxury Barbados beach holiday with motorised watersports
   id: luxury-barbados-beach-holiday-with-motorised-watersports
