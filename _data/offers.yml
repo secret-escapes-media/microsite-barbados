@@ -1,12 +1,15 @@
-- title: Premium all-inclusive Barbados beach holiday
-  id: premium-all-inclusive-barbados-beach-holiday
-  location: Turtle Beach by Elegant Hotels, Caribbean
-  description: A fuss-free stay by sugary sands on the Barbados beachfront
-  price: 1449
+
+
+
+- title: Heavenly Barbados beach holiday
+  id: heavenly-barbados-beach-holiday
+  location: Worthing Court Apartment Hotel, Caribbean
+  description: Beach bliss at a colourful hotel in breezy Barbados
+  price: 699
   price-description: per person for 7 nights
-  saved: 40
-  expires: 2018/01/27
-  link: https://www.secretescapes.com/premium-all-inclusive-barbados-beach-holiday-turtle-beach-by-elegant-hotels-caribbean/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Barbados_Jan2018
+  saved: 45
+  expires: 2018/02/06
+  link: https://www.secretescapes.com/heavenly-barbados-beach-holiday-worthing-court-apartment-hotel-caribbean/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Barbados_Jan2018
 
 - title: Luxury Barbados beach holiday with motorised watersports
   id: luxury-barbados-beach-holiday-with-motorised-watersports
@@ -15,7 +18,7 @@
   price: 1099
   price-description: per person for 7 nights
   saved: 30
-  expires: 2018/01/30
+  expires: 2018/02/06
   link: https://www.secretescapes.com/luxury-barbados-beach-holiday-with-motorised-watersports-tamarind-by-elegant-hotels-caribbean/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Barbados_Jan2018
 
 - title: Laid-back adults-only Barbados escape
@@ -25,5 +28,5 @@
   price: 829
   price-description: per person for 7 nights
   saved: 35
-  expires: 2018/01/30
+  expires: 2018/02/06
   link: https://www.secretescapes.com/laid-back-adults-only-barbados-escape-sugar-cane-club-hotel-and-spa-caribbean/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Barbados_Jan2018
