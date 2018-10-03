@@ -1,7 +1,0 @@
-{% assign external-offers = site.data.external-offers  | sort: 'saved' | reverse %}
-
-<div class="row">
-  {% for offer in external-offers %}
-    {% include components/offer-external.html %}
-  {% endfor %}
-</div>
