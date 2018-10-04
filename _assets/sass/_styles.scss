@@ -1,1 +1,60 @@
 // general styles for the project that wouldn't be a reuseable component
+
+body { background-image: url(../img/texture.png); }
+
+.bg--texture {
+  background-color: lighten($grey-lighter,10);
+  background-image: url(../img/texture.png);
+}
+
+.banner {
+  // rip texture to the bottom of the page banner
+  &:after {
+    content:'';
+    position: absolute;
+    bottom: 0;
+    z-index: $z-content-upper;
+    display: block;
+    width: 100%;
+    height: 44px;
+    background-image: url(../img/overlay.png);
+  }
+}
+
+.nav-list {
+  display: table;
+  width: 100%;
+  text-align: center;
+  color: #7B8185;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: $font-title-01;
+  table-layout: fixed;
+  border-collapse: collapse;
+  &__item {
+    display: table-row;
+    vertical-align: middle;
+    & + & { border-top: 2px solid #dedede; }
+    @include bp($md) {
+      width: 33.33%;
+      display: table-cell;
+      & + & {
+        border-top: 0;
+        border-left: 2px solid #dedede;
+      }
+    }
+  }
+  > li.nav-list__item { // reset normal list style
+    margin-left: 0;
+    padding-top: 0;
+  }
+  &__link {
+    display: block;
+    padding-top: $s0;
+    padding-left: $s2;
+    padding-right: $s2;
+    padding-bottom: $s0;
+  }
+}

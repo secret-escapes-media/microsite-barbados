@@ -38,4 +38,10 @@
     @include transition;
   }
   &:hover &__bg-overlay { background-color: rgba($black,.6); }
+  &--hover:hover {
+    transform: scale(1.025);
+    @include shadow;
+    z-index: $z-content-upper;
+    .touch & { transform: none; }
+  }
 }

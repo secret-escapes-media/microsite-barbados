@@ -1,0 +1,10 @@
+// offer card styles for non SE offers
+
+.offer {
+  &#{&}--external &__arrow {
+    border: 1px solid $b-blue-dark;
+    background-image: url('../img/icons/arrow-right-blue.svg');
+  }
+  &#{&}--external &__saved-percent { background-color: $b-blue-dark; }
+  &#{&}--external &__price { color: $b-blue-dark; }
+}

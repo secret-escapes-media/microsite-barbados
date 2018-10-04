@@ -1,0 +1,17 @@
+{% include offer/variables.html %}
+{% assign external-offers = site.data.external-offers  | sort: 'price' | reverse %}
+
+<div class="container vpad--xxxl">
+  <div class="row row--xl-6-6 row--gutters-lg">
+    {% for offer in offers-by-price %}
+      <div class="col">
+        {% include offer/offer.html %}
+      </div>
+    {% endfor %}
+    {% for offer in external-offers %}
+      <div class="col">
+        {% include offer/offer-external.html %}
+      </div>
+    {% endfor %}
+  </div>
+</div>

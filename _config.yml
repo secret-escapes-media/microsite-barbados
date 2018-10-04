@@ -1,18 +1,18 @@
 # Site settings
-title: Destination Topic
+title: Barbados
 client:
-  name: Client Name
-  link: "#client-name"
+  name: Destination Barbados
+  link: https://www.visitbarbados.org/
 core-se-link: https://www.secretescapes.com/current-sales
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  This sun-drenched Caribbean starlet is the perfect place to indulge mind, body and soul – the beach is calling.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/_templates/destination-topic" # the subpath of your site, e.g. /blog/
-img:     "/_templates/destination-topic/_assets/img"
-css:     "/_templates/destination-topic/_assets/css"
-js:      "/_templates/destination-topic/_assets/js"
+baseurl: "/barbados" # the subpath of your site, e.g. /blog/
+img:     "/barbados/_assets/img"
+css:     "/barbados/_assets/css"
+js:      "/barbados/_assets/js"
 
 
 # Build settings

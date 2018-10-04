@@ -4,6 +4,14 @@
 
   // custom content headline
   font-family: $font-title-01;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.1;
+  letter-spacing: .2rem;
+
+  &--kern  { letter-spacing: .33rem; }
+  &--color { color: $b-blue-dark; }
+
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }
   &--xl     { font-size: $s6; }
@@ -78,9 +86,20 @@
 
   // custom banner headline
   font-family: $font-title-01;
+  font-weight: 500;
   text-transform: uppercase;
-  font-size: $s5;
-  @include bp($md){ font-size: $s7; }
-  @include bp($xl){ font-size: $s10; }
+  letter-spacing: .175em;
+  line-height: 1;
+
+  // need to do custom breakpoints for the biggest typeface
+  // biggest is the overview page
+  // also need to leave a comment explaining this
+  // font-size: $s5;
+  // @include bp($sm){ font-size: $s7; }
+  // @include bp($md){ font-size: $s7; }
+  // @include bp($xl){ font-size: $s9; }
+
+  // delete this as well
+  font-size: $s9;
 
 }
