@@ -191,7 +191,7 @@ gulp.task('compress-js', function () {
 // compress images files for live
 gulp.task('compress-images', function () {
   return gulp.src('./_site/_assets/img/**/*')
-  .pipe(image())
+  .pipe(image({'svgo': ['--disable', 'removeViewBox']}))
   .pipe(gulp.dest('./_site/_assets/img'));
 })
 
