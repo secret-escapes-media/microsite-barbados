@@ -90,16 +90,11 @@
   text-transform: uppercase;
   letter-spacing: .175em;
   line-height: 1;
-
-  // need to do custom breakpoints for the biggest typeface
-  // biggest is the overview page
-  // also need to leave a comment explaining this
-  // font-size: $s5;
-  // @include bp($sm){ font-size: $s7; }
-  // @include bp($md){ font-size: $s7; }
-  // @include bp($xl){ font-size: $s9; }
-
-  // delete this as well
-  font-size: $s9;
+  font-size: $s5;
+  // custom breakpoints specific for this typeface and largest title content
+  @include bp(400px){ font-size: $s6; }
+  @include bp(500px){ font-size: $s7; }
+  @include bp(600px){ font-size: $s8; }
+  @include bp($xl){ font-size: $s9; }
 
 }

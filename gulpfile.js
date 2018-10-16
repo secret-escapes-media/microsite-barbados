@@ -83,6 +83,11 @@ gulp.task('watch-images', ['build-images'], function() {
     })
 });
 
+// watch for js
+gulp.task('watch-fonts', ['build-fonts'], function() {
+  gulp.watch(['_assets/fonts/**/*.*'], ['build-fonts']);
+});
+
 
 // ----------------------------------------------------------------------  build
 
@@ -118,8 +123,8 @@ gulp.task('build-main-js', function(cb) {
     // components
     './_assets/js/_components/standard.js',
     './_assets/js/_components/offer-countdown.js',
-    './_assets/js/_components/modal.js',
-    './_assets/js/_components/modal-nav.js',
+    // './_assets/js/_components/modal.js',
+    // './_assets/js/_components/modal-nav.js',
     // './_assets/js/_components/sticky-nav.js',
 
     // custom js for project
@@ -148,6 +153,11 @@ gulp.task('build-js', function(cb) {
 gulp.task('build-images', function(cb) {
   return gulp.src('./_assets/img/**/*.*')
   .pipe(gulp.dest('./_site/_assets/img/'))
+});
+
+gulp.task('build-fonts', function(cb) {
+  return gulp.src('./_assets/fonts/**/*.*')
+  .pipe(gulp.dest('./_site/_assets/fonts/'))
 });
 
 
@@ -207,7 +217,8 @@ gulp.task('default', gulpSequence(
     'watch-sass',
     'watch-main-js',
     'watch-js',
-    'watch-images'
+    'watch-images',
+    'watch-fonts'
   ])
 );
 
@@ -219,7 +230,8 @@ gulp.task('build', gulpSequence(
     'build-sass',
     'build-main-js',
     'build-js',
-    'build-images'
+    'build-images',
+    'build-fonts'
   ],
   [
     'clean-sourcemaps',

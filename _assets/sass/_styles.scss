@@ -12,6 +12,7 @@ body { background-image: url(../img/texture.png); }
   &:after {
     content:'';
     position: absolute;
+    left: 0;
     bottom: 0;
     z-index: $z-content-upper;
     display: block;
@@ -27,7 +28,7 @@ body { background-image: url(../img/texture.png); }
   text-align: center;
   color: #7B8185;
   font-size: 0.9em;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-family: $font-title-01;

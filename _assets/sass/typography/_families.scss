@@ -2,5 +2,14 @@
 // need to put a friendly reminder where the g fonts snippet needs to go in the whole site
 // additional families need to included in includes > page > head
 
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/hinted-Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/hinted-Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
 $font-core: 'Open Sans', 'Helvetica Neue', sans-serif;
 $font-title-01: 'Montserrat', 'Helvetica Neue', sans-serif;
