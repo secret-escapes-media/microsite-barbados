@@ -5,7 +5,7 @@
   price: 999
   price-description: per person for 7 nights
   saved: 52
-  expires: 2018/10/30
+  expires: 2018/11/06
   link: https://www.secretescapes.com/luxurious-barbados-getaway-to-a-boutique-beachfront-resort-ocean-two-by-ocean-hotels-barbados/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
 
 - title: All-inclusive Barbados holiday with oceanfront room upgrade
@@ -15,7 +15,7 @@
   price: 999
   price-description: per person for 7 nights
   saved: 59
-  expires: 2018/10/30
+  expires: 2018/11/06
   link: https://www.secretescapes.com/all-inclusive-barbados-holiday-at-a-beachfront-hotel-barbados-beach-club-resort-caribbean/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
 
 - title: All-inclusive Barbados escape to a boutique adults-only hotel
@@ -25,7 +25,7 @@
   price: 1149
   price-description: per person for 7 nights
   saved: 51
-  expires: 2018/10/30
+  expires: 2018/11/06
   link: https://www.secretescapes.com/all-inclusive-laid-back-barbados-escape-sugar-cane-club-hotel-and-spa-maynards/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
 
 - title: All-inclusive Barbados beach holiday at an adults-only boutique retreat
@@ -35,7 +35,7 @@
   price: 1299
   price-description: per person for 7 nights
   saved: 60
-  expires: 2018/10/30
+  expires: 2018/11/06
   link: https://www.secretescapes.com/all-inclusive-barbados-beach-holiday-at-an-adults-only-boutique-retreat-the-soco-hotel-caribbean/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
 
 - title: Luxury all-inclusive holiday at a boutique beachfront Barbados resort, with an ocean view room
@@ -45,15 +45,24 @@
   price: 1549
   price-description: per person for 7 nights
   saved: 60
-  expires: 2018/10/30
+  expires: 2018/11/06
   link: https://www.secretescapes.com/all-inclusive-beachfront-barbados-getaway-sea-breeze-beach-house-christ-church/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
 
-- title: Luxury Barbados holiday with watersport facilities & airport lounge pass
-  id: luxury-barbados-holiday-with-watersport-facilities-airport-lounge-pass
-  location: Tamarind by Elegant Hotels, Caribbean
-  description: Beachfront bliss at a colourful Barbados resort, with ocean views from your room - includes breakfast and all travel
-  price: 1199
+- title: Butterfly Beach Hotel
+  id: butterfly-beach-hotel
+  location: Oistins, Barbados
+  description: An upbeat, newly revamped Barbados beach hotel on the island's south coast, with a communal Jacuzzi terrace - includes breakfast and a choice of views from your room
+  price: 42
+  price-description: per person - based on 2 persons
+  expires: 2018/11/06
+  link: https://www.secretescapes.com/butterfly-beach-hotel-oistins-barbados/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
+
+- title: 5* sun-soaked Barbados beach holiday with a private pool suite
+  id: sun-soaked-barbados-beach-holiday-with-a-private-pool-suite
+  location: The Crane Resort, St Philips
+  description: A luxe suite with a private pool at a historic resort just moments from one of the top 100 beaches in the world, Crane Beach, on an unspoiled stretch of coastline
+  price: 1499
   price-description: per person for 7 nights
-  saved: 55
-  expires: 2018/10/29
-  link: https://www.secretescapes.com/luxury-barbados-beach-holiday-with-great-watersport-facilities-tamarind-by-elegant-hotels-caribbean/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
+  saved: 50
+  expires: 2018/11/06
+  link: https://www.secretescapes.com/barbados-beach-holiday-the-crane-resort-st-philips/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
