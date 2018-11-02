@@ -41,8 +41,8 @@
 - title: Luxury all-inclusive holiday at a boutique beachfront Barbados resort, with an ocean view room
   id: luxury-all-inclusive-holiday-at-a-boutique-beachfront-barbados-resort-with-an-ocean-view-room
   location: Sea Breeze Beach House, Christ Church
-  description: A luxury all-inclusive holiday at a secluded Barbados hideaway, set right on a beautiful white sand beach - includes an ocean-view room, all travel and a massage
-  price: 1549
+  description: A luxury all-inclusive holiday at a secluded Barbados hideaway, set right on a beautiful white sand beach - includes an ocean-view room, all travel and two indulgent in-room massages
+  price: 1299
   price-description: per person for 7 nights
   saved: 60
   expires: 2018/11/06
@@ -66,3 +66,13 @@
   saved: 50
   expires: 2018/11/06
   link: https://www.secretescapes.com/barbados-beach-holiday-the-crane-resort-st-philips/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
+
+- title: Boutique Barbados beach holiday with an ocean-view suite
+  id: boutique-barbados-beach-holiday-with-an-ocean-view-suite
+  location: South Beach by Ocean Hotels, Caribbean
+  description: A blissful stay at a contemporary all-suite boutique hotel on Barbados’ glittering south coast - with breakfast, a spa treatment and all travel
+  price: 999
+  price-description: per person for 7 nights
+  saved: 55
+  expires: 2018/11/13
+  link: https://www.secretescapes.com/modern-barbados-beach-holiday-with-an-ocean-view-suite-south-beach-by-ocean-hotels-caribbean/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
