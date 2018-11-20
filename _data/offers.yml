@@ -5,7 +5,7 @@
   price: 1099
   price-description: per person for 7 nights
   saved: 52
-  expires: 2018/11/13
+  expires: 2018/11/27
   link: https://www.secretescapes.com/luxurious-barbados-getaway-to-a-boutique-beachfront-resort-ocean-two-by-ocean-hotels-barbados/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
 
 - title: All-inclusive Barbados holiday with oceanfront room upgrade
@@ -15,17 +15,17 @@
   price: 999
   price-description: per person for 7 nights
   saved: 50
-  expires: 2018/11/13
+  expires: 2018/11/27
   link: https://www.secretescapes.com/all-inclusive-barbados-holiday-at-a-beachfront-hotel-barbados-beach-club-resort-caribbean/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
 
 - title: All-inclusive Barbados beach holiday at an adults-only boutique retreat
   id: all-inclusive-barbados-beach-holiday-at-an-adults-only-boutique-retreat
   location: The SoCo Hotel, Caribbean
   description: Luxurious all-inclusive bliss at a stylish adults-only boutique resort on the white Barbados sands, including all travel
-  price: 1349
+  price: 1299
   price-description: per person for 7 nights
   saved: 60
-  expires: 2018/11/13
+  expires: 2018/11/27
   link: https://www.secretescapes.com/all-inclusive-barbados-beach-holiday-at-an-adults-only-boutique-retreat-the-soco-hotel-caribbean/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
 
 - title: Luxury all-inclusive holiday at a boutique beachfront Barbados resort, with an ocean view room
@@ -35,7 +35,7 @@
   price: 1299
   price-description: per person for 7 nights
   saved: 60
-  expires: 2018/11/13
+  expires: 2018/11/27
   link: https://www.secretescapes.com/all-inclusive-beachfront-barbados-getaway-sea-breeze-beach-house-christ-church/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
 
 - title: Boutique Barbados beach holiday with an ocean-view suite
@@ -45,7 +45,7 @@
   price: 999
   price-description: per person for 7 nights
   saved: 55
-  expires: 2018/11/13
+  expires: 2018/11/27
   link: https://www.secretescapes.com/modern-barbados-beach-holiday-with-an-ocean-view-suite-south-beach-by-ocean-hotels-caribbean/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
 
 - title: All-inclusive Barbados escape to a boutique adults-only hotel
@@ -55,15 +55,25 @@
   price: 1199
   price-description: per person for 7 nights
   saved: 50
-  expires: 2018/11/16
+  expires: 2018/11/27
   link: https://www.secretescapes.com/all-inclusive-barbados-escape-to-a-boutique-adults-only-hotel-sugar-cane-club-hotel-and-spa-maynards/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=November2018
 
-- title: 5* sun-soaked Barbados beach holiday with a private pool suite
-  id: sun-soaked-barbados-beach-holiday-with-a-private-pool-suite
-  location: The Crane Resort, St Philips
-  description: A luxe suite with a private pool at a historic resort just moments from one of the top 100 beaches in the world, Crane Beach, on an unspoiled stretch of coastline
-  price: 1499
+- title: Cobblers Cove
+  id: cobblers-cove
+  location: Barbados, Caribbean
+  description: A tranquil and luxurious beach retreat in Barbados, including breakfast and a choice of sleek suites
+  price: 120
+  price-description: per person - based on 2 persons
+  saved: 40
+  expires: 2018/11/27
+  link: https://www.secretescapes.com/cobblers-cove-barbados-caribbean9/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=November2018
+
+- title: Blissful all-inclusive Barbados break with stunning sea views
+  id: blissful-all-inclusive-barbados-break-with-stunning-sea-views
+  location: Sugar Bay Barbados, Caribbean
+  description: An idyllic, all-inclusive beach holiday brimming with colour and charm, staying in a Barbados spa hotel with stunning sea views - includes all travel and spa credit
+  price: 1299
   price-description: per person for 7 nights
-  saved: 50
-  expires: 2018/11/20
-  link: https://www.secretescapes.com/barbados-beach-holiday-the-crane-resort-st-philips/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=November2018
+  saved: 51
+  expires: 2018/11/27
+  link: https://www.secretescapes.com/barbados-holiday-sugar-bay-caribbean/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=November2018
