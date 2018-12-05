@@ -1,23 +1,3 @@
-- title: Luxurious Barbados getaway to a boutique beachfront resort
-  id: luxurious-barbados-getaway-to-a-boutique-beachfront-resort
-  location: Ocean Two by Ocean Hotels, Barbados
-  description: Live the suite life at a boutique resort on the dazzling turquoise shorefront of Barbados, near St Lawrence Gap - includes breakfast, two luxurious in-room treatments, oceanfront suite, flights and transfers
-  price: 949
-  price-description: per person for 7 nights
-  saved: 52
-  expires: 2018/12/04
-  link: https://www.secretescapes.com/luxurious-barbados-getaway-to-a-boutique-beachfront-resort-ocean-two-by-ocean-hotels-barbados/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
-
-- title: All-inclusive Barbados holiday with oceanfront room upgrade
-  id: all-inclusive-barbados-holiday-with-oceanfront-room-upgrade
-  location: Barbados Beach Club Resort, Caribbean
-  description: Escape to balmy Barbados with an all-inclusive stay in St. Lawrence Gap, set along a pristine white-sand beach - includes oceanfront room upgrade and all travel - with dates up to July 2019
-  price: 999
-  price-description: per person for 7 nights
-  saved: 50
-  expires: 2018/12/04
-  link: https://www.secretescapes.com/all-inclusive-barbados-holiday-at-a-beachfront-hotel-barbados-beach-club-resort-caribbean/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
-
 - title: All-inclusive Barbados beach holiday at an adults-only boutique retreat
   id: all-inclusive-barbados-beach-holiday-at-an-adults-only-boutique-retreat
   location: The SoCo Hotel, Caribbean
@@ -25,38 +5,8 @@
   price: 1199
   price-description: per person for 7 nights
   saved: 60
-  expires: 2018/12/04
+  expires: 2018/12/11
   link: https://www.secretescapes.com/all-inclusive-barbados-beach-holiday-at-an-adults-only-boutique-retreat-the-soco-hotel-caribbean/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
-
-- title: Luxury all-inclusive holiday at a boutique beachfront Barbados resort, with an ocean view room
-  id: luxury-all-inclusive-holiday-at-a-boutique-beachfront-barbados-resort-with-an-ocean-view-room
-  location: Sea Breeze Beach House, Christ Church
-  description: A luxury all-inclusive holiday at a secluded Barbados hideaway, set right on a beautiful white sand beach - includes an ocean-view room, all travel and two indulgent in-room massages
-  price: 1299
-  price-description: per person for 7 nights
-  saved: 60
-  expires: 2018/12/04
-  link: https://www.secretescapes.com/all-inclusive-beachfront-barbados-getaway-sea-breeze-beach-house-christ-church/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
-
-- title: Boutique Barbados beach holiday with an ocean-view suite
-  id: boutique-barbados-beach-holiday-with-an-ocean-view-suite
-  location: South Beach by Ocean Hotels, Caribbean
-  description: A blissful stay at a contemporary all-suite boutique hotel on Barbados’ glittering south coast - with breakfast, a spa treatment and all travel
-  price: 899
-  price-description: per person for 7 nights
-  saved: 55
-  expires: 2018/12/04
-  link: https://www.secretescapes.com/modern-barbados-beach-holiday-with-an-ocean-view-suite-south-beach-by-ocean-hotels-caribbean/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=October2018
-
-- title: Cobblers Cove
-  id: cobblers-cove
-  location: Barbados, Caribbean
-  description: A tranquil and luxurious beach retreat in Barbados, including breakfast and a choice of sleek suites
-  price: 120
-  price-description: per person - based on 2 persons
-  saved: 40
-  expires: 2018/12/04
-  link: https://www.secretescapes.com/cobblers-cove-barbados-caribbean9/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=November2018
 
 - title: Fairmont Royal Pavilion
   id: fairmont-royal-pavilion
@@ -64,6 +14,15 @@
   description: An oceanfront room at a recently renovated luxury escape on a pristine Caribbean beach, featuring high-end dining
   price: 187
   price-description: per person - based on 2 persons
-  saved: 48
+  saved: 25
   expires: 2018/12/11
   link: https://www.secretescapes.com/fairmont-royal-pavilion-st-james-barbados987/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=November2018
+
+- title: Mullins Grove
+  id: mullins-grove
+  location: Barbados, Caribbean
+  description: A sleek Miami-style self-catering apartment on the idyllic west coast of Barbados, with a welcome basket included
+  price: 61
+  price-description: per person - based on 2 persons
+  expires: 2018/12/11
+  link: https://www.secretescapes.com/mullins-grove-barbados/sale?utm_source=SE_media&utm_medium=Barbados&utm_campaign=November2018
